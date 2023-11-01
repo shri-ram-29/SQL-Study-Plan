@@ -16,6 +16,6 @@ The domain is '@leetcode.com'.
 Return the result table in any order.
 The result format is in the following example.
 */
-SELECT user_id, name, mail
+SELECT *
 FROM Users
-WHERE mail REGEXP '^[a-zA-Z][a-zA-Z0-9._-]*@leetcode.com$';
+WHERE mail REGEXP '^[a-zA-Z][a-zA-Z0-9_.-]*@leetcode[.]com$';
